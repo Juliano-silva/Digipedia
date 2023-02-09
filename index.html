@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digipedia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="LOgo">Digipedia</h1>
+        <input type="text" placeholder="Pesquisar Digimon" id="TextoInpt">
+        <button type="button" onclick='findString()'>Pesquisar</button>
+    <ul data-js="pokedex" class="Container"></ul>
+</body>
+<script src="Javascript.js"></script>
+<script>
+function findString(TextoInpt) {
+    TextoInpt =  document.getElementById("TextoInpt").value
+    document.querySelector("#output").textContent=`${window.find(TextoInpt)}`;
+}
+</script>
+</html>

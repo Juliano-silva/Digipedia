@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "Digimon";
+  src: url("Font/DigimonBasic.ttf") format('truetype');
+}
+::-webkit-scrollbar{
+  width: 0px;
+}
+body{
+  background-image: url("https://browsecat.art/sites/default/files/digimon-world-wallpapers-104911-1035631-1680530.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#CardDigimon{
+  border: 2px solid gray;
+  border-radius: 2vh;
+  width: 40vh;
+  margin-top: 2vh;
+  display: inline-table;
+  margin-left: 2.5%;
+  background-image: url("https://mcdn.wallpapersafari.com/medium/2/58/r8ltqF.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+ul{
+  list-style: none;
+}
+#DigiImg{
+  display: block;
+  border: 2px solid transparent;
+  margin: auto;
+  height: 50vh;
+  width: 100%;
+  border-radius: 2vh 2vh 0 0;
+}
+input{
+  all: unset;
+  display: block;
+  margin: auto;
+  border: 0.4vh solid blue;
+  border-radius: 2vh;
+  background: orange;
+  color: black;
+  font-size: 3vh;
+  text-align: center;
+  width: 80%;
+  margin-top: -8%;
+}
+button{
+  all: unset;
+  display: block;
+  margin: auto;
+  margin-top: 2vh;
+  background: orange;
+  color: aqua;
+  border: 0.4vh solid blue;
+  text-align: center;
+  width: 10%;
+  font-size: 2vh;
+  border-radius: 2vh;
+  cursor: pointer;
+}
+button:hover{
+  filter: invert(1);
+}
+#LOgo{
+  text-align: center;
+  font-size: 20vh;
+  background-image: linear-gradient(yellow,rgb(231, 231, 47),orange,rgb(134, 91, 11));
+	-webkit-background-clip: text;
+	color: transparent;
+  filter: drop-shadow(0.4vh 0.4vh 0.2vh aqua);
+  font-family: 'Digimon';
+}
+#Digiid,#DigimonName,#DigimonX,#DigimonData{
+  font-family: 'Digimon';
+  font-size: 4vh;
+  background-image: linear-gradient(yellow,rgb(231, 231, 47),orange,rgb(134, 91, 11));
+	-webkit-background-clip: text;
+	color: transparent;
+  word-break: break-all;
+  text-align: center;
+}
